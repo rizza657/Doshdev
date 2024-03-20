@@ -71,6 +71,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
   ];
 
   @override
+  // made widget
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.white,
