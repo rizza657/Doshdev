@@ -15,8 +15,7 @@ class HomepageApp extends StatelessWidget {
       theme: ThemeData(
         scaffoldBackgroundColor: const Color.fromARGB(255, 255, 255, 255),
       ),
-      home: const login_page(), // Set LoginPage as the initial route
+      home: const LoginPage(), // Set LoginPage as the initial route
     );
   }
 }
- m                                           n
