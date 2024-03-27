@@ -1,5 +1,5 @@
-import 'package:flutter/material.dart';
-import 'Home.dart';
+import 'package:flutter/material.dart' show Align, Alignment, AssetImage, BorderRadius, BoxDecoration, BoxFit, BoxShape, BuildContext, Center, CircleAvatar, Color, Colors, Column, Container, CrossAxisAlignment, DecorationImage, EdgeInsets, FontWeight, GestureDetector, GridView, Icon, Icons, InputBorder, InputDecoration, MainAxisAlignment, MainAxisSize, MaterialPageRoute, MediaQuery, Navigator, NeverScrollableScrollPhysics, Padding, Radius, Row, Scaffold, SingleChildScrollView, SizedBox, SliverGridDelegateWithFixedCrossAxisCount, Stack, State, StatefulWidget, Text, TextFormField, TextStyle, Widget, showModalBottomSheet;
+import 'home.dart';
 import 'Exchange.dart';
 import 'Wallet.dart';
 import 'Explore.dart';
@@ -110,7 +110,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
                                 children: [
                                   CircleAvatar(
                                     radius: 50,
-                                    backgroundImage: AssetImage("images/yye.jpeg"),
+                                    backgroundImage: AssetImage("images/dbdb.jpeg"),
                                   ),
                                    SizedBox(height: 16),
                                   Text(
@@ -146,7 +146,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
                         borderRadius: BorderRadius.circular(25),
                         color: Colors.white,
                         image: const DecorationImage(
-                          image: AssetImage("images/dbdb.jpeg"),
+                          image: AssetImage('images/IMG_8423.jpg'),
                           fit: BoxFit.cover,
                         ),
                       ),
